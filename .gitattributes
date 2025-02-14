@@ -3,3 +3,5 @@
 *.x5 filter=lfs diff=lfs merge=lfs -text
 *.tf linguist-language=HCL
 *.vue linguist-language=Vue
+*.tf linguist-language=HCL
+*.vue linguist-language=Vue

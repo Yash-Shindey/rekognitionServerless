@@ -1,2 +1,21 @@
 .terraform/
 .terraform/
+# Ignore Python environment & dependencies
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Ignore ZIP files (deployed Lambda packages)
+*.zip
+
+# Ignore Terraform-related caches but keep main.tf
+.terraform/
+.terraform.lock.hcl
+
+# Ignore all Python files except index.py in specific folders
+*.py
+!api-handler/index.py
+!image-processor/index.py
