@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "image-gallery-storage-250b1e4b"
+        },
+        "object": {
+          "key": "Author.jpeg"
+        }
+      }
+    }
+  ]
+}
