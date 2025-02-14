@@ -1,2 +1,2 @@
-### **Courses**
+### **Output**
 ![Courses](readmeImage.webp)
