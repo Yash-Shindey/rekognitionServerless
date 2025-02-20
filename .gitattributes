@@ -5,3 +5,15 @@
 *.vue linguist-language=Vue
 *.tf linguist-language=HCL
 *.vue linguist-language=Vue
+# Ignore Python dependency files (boto3, botocore, urllib3, etc.)
+lambda-package/** linguist-vendored
+src/functions/api-handler/boto3/** linguist-vendored
+src/functions/api-handler/botocore/** linguist-vendored
+src/functions/api-handler/urllib3/** linguist-vendored
+src/functions/image-processor/boto3/** linguist-vendored
+src/functions/image-processor/botocore/** linguist-vendored
+src/functions/image-processor/urllib3/** linguist-vendored
+
+# Correctly classify Vue and HCL files
+*.vue linguist-language=Vue
+*.tf linguist-language=HCL
