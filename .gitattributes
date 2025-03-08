@@ -14,3 +14,14 @@ src/functions/api-handler/urllib3/** linguist-vendored
 src/functions/image-processor/boto3/** linguist-vendored
 src/functions/image-processor/botocore/** linguist-vendored
 src/functions/image-processor/urllib3/** linguist-vendored
+# Ignore Python dependency files from language statistics
+src/functions/api-handler/bin/** linguist-vendored
+src/functions/api-handler/dateutil/** linguist-vendored
+src/functions/api-handler/jmespath/** linguist-vendored
+src/functions/api-handler/s3transfer/** linguist-vendored
+src/functions/api-handler/six.py linguist-vendored
+src/functions/image-processor/bin/** linguist-vendored
+src/functions/image-processor/dateutil/** linguist-vendored
+src/functions/image-processor/jmespath/** linguist-vendored
+src/functions/image-processor/s3transfer/** linguist-vendored
+src/functions/image-processor/six.py linguist-vendored
